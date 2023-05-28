@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function FormAdmin() {
@@ -14,9 +15,11 @@ export default function FormAdmin() {
         <input type="text" id="first" name="first" placeholder="Masukan Username" className="px-2 border-2 rounded-md" />
         <label for="last">Password:</label>
         <input type="password" id="last" name="last" className="px-2 border-2 rounded-md"/>
-        <button type="submit" className="px-5 py-3 bg-green-600 rounded-xl text-white my-3">
+        <Link href='/Detaillogin'>
+        <button type="submit"  className="px-5 py-3 bg-green-600 rounded-xl text-white my-3">
           Submit
         </button>
+        </Link>
       </form>
     </div>
   );
