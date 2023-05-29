@@ -4,7 +4,7 @@ export default function Hargamasuk() {
   return (
     <div className='container'>
          <div className="px-5">
-          <p className="font-bold text-xl lg:text-3xl py-5">
+          <p className="font-bold text-xl lg:text-3xl pb-3">
             Harga Masuk Situ Gunung
           </p>
           <p>

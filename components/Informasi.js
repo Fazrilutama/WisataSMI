@@ -23,7 +23,7 @@ export default function Informasi() {
 
 
           <Link href="/SituGunung">
-          <button className="bg-red-500 p-3 rounded-2xl text-sm font-semibold mx-4 text-white my-4 hover:bg-red-600 hover:bg-red-600">
+          <button className="bg-red-500 p-3 rounded-2xl text-sm font-semibold mx-4 text-white my-4 hover:bg-red-600">
             Lihat Selengkapnya
           </button>
           </Link>

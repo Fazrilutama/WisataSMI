@@ -2,6 +2,7 @@ import React from "react";
 import Hargamasuk from "./Hargamasuk";
 import Fasilitas from "./Fasilitas";
 import Dayatarik from "./Dayatarik";
+import Maps from "./Maps";
 
 export default function DetailSitugunung() {
   return (
@@ -33,6 +34,7 @@ export default function DetailSitugunung() {
         <Fasilitas/>
         <Hargamasuk/>
         <Dayatarik/>
+        <Maps/>
       </div>
     </div>
   );
